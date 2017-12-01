@@ -1,0 +1,6 @@
+framework module Pods_Sanapp {
+  umbrella header "Pods-Sanapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

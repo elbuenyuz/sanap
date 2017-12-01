@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0A24F91F02FC9900D75574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0A24F81F02FC9900D75574 /* Assets.xcassets */; };
+		8E0A24FB1F02FE7700D75574 /* StyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A24FA1F02FE7700D75574 /* StyleView.swift */; };
+		8E198AC51EB716B90043D516 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E198AC41EB716B90043D516 /* Ubuntu-Medium.ttf */; };
+		8E198AC91EB90F7E0043D516 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E198AC81EB90F7E0043D516 /* LoginVC.swift */; };
+		8E198AD51EB9146D0043D516 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E198AD41EB9146D0043D516 /* DataService.swift */; };
+		8E2394EA1EB27B9500741755 /* ModelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2394E91EB27B9500741755 /* ModelElement.swift */; };
+		8E3F66E91EB1389700BE4A5C /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F66E81EB1389700BE4A5C /* SideMenuVC.swift */; };
+		8E3F66EB1EB140C600BE4A5C /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F66EA1EB140C600BE4A5C /* SideMenuCell.swift */; };
+		8E4F246C1EB98C4300C72D82 /* StyleImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F246B1EB98C4300C72D82 /* StyleImgView.swift */; };
+		8E4F246E1EB99BF500C72D82 /* StyleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F246D1EB99BF500C72D82 /* StyleLabel.swift */; };
+		8E579D571EB1252F00597ADB /* LauncherStyleUImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E579D561EB1252F00597ADB /* LauncherStyleUImageView.swift */; };
+		8E579D5B1EB133DC00597ADB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E579D5A1EB133DC00597ADB /* SWRevealViewController.m */; };
+		8E688DDC1EE343AC00F74B7E /* agua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E688DD61EE343AC00F74B7E /* agua.mp3 */; };
+		8E688DDD1EE343AC00F74B7E /* ansiedad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E688DD71EE343AC00F74B7E /* ansiedad.mp3 */; };
+		8E688DDE1EE343AC00F74B7E /* campanas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E688DD81EE343AC00F74B7E /* campanas.mp3 */; };
+		8E688DDF1EE343AC00F74B7E /* furin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E688DD91EE343AC00F74B7E /* furin.mp3 */; };
+		8E688DE01EE343AC00F74B7E /* gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E688DDA1EE343AC00F74B7E /* gong.mp3 */; };
+		8E688DE11EE343AC00F74B7E /* pajaros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E688DDB1EE343AC00F74B7E /* pajaros.mp3 */; };
+		8E8CBC8A1EB26E6D00478810 /* StyleContainerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CBC891EB26E6D00478810 /* StyleContainerUIView.swift */; };
+		8E8CBC8C1EB26EBC00478810 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CBC8B1EB26EBC00478810 /* Constants.swift */; };
+		8E9A6F8E1F038FBA00EDFD1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A6F8D1F038FBA00EDFD1A /* GoogleService-Info.plist */; };
+		8EEC1BD71EFF0713005B4CE7 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC1BD61EFF0712005B4CE7 /* FeedbackVC.swift */; };
+		8EEC1BD91EFF26C0005B4CE7 /* StyleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC1BD81EFF26C0005B4CE7 /* StyleTextView.swift */; };
+		8EEF1C581EAAE4A000B5E8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF1C571EAAE4A000B5E8BE /* AppDelegate.swift */; };
+		8EEF1C5A1EAAE4A000B5E8BE /* MainViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF1C591EAAE4A000B5E8BE /* MainViewVC.swift */; };
+		8EEF1C5D1EAAE4A000B5E8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF1C5B1EAAE4A000B5E8BE /* Main.storyboard */; };
+		8EEF1C601EAAE4A000B5E8BE /* Sanapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF1C5E1EAAE4A000B5E8BE /* Sanapp.xcdatamodeld */; };
+		8EEF1C701EAAE4A000B5E8BE /* SanappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF1C6F1EAAE4A000B5E8BE /* SanappTests.swift */; };
+		8EEF1C7B1EAAE4A000B5E8BE /* SanappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF1C7A1EAAE4A000B5E8BE /* SanappUITests.swift */; };
+		9C34D96157322BDCC9D3AE21 /* Pods_Sanapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29DEC2121D54D771C89D04E /* Pods_Sanapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EEF1C6C1EAAE4A000B5E8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF1C4C1EAAE4A000B5E8BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF1C531EAAE4A000B5E8BE;
+			remoteInfo = Sanapp;
+		};
+		8EEF1C771EAAE4A000B5E8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF1C4C1EAAE4A000B5E8BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF1C531EAAE4A000B5E8BE;
+			remoteInfo = Sanapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		379304EC328075EA8E65C6DF /* Pods-Sanapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sanapp/Pods-Sanapp.release.xcconfig"; sourceTree = "<group>"; };
+		8E0A24F81F02FC9900D75574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E0A24FA1F02FE7700D75574 /* StyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleView.swift; sourceTree = "<group>"; };
+		8E198AC41EB716B90043D516 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		8E198AC81EB90F7E0043D516 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8E198AD41EB9146D0043D516 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8E2394E91EB27B9500741755 /* ModelElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelElement.swift; sourceTree = "<group>"; };
+		8E3F66E81EB1389700BE4A5C /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		8E3F66EA1EB140C600BE4A5C /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		8E4F24641EB9219E00C72D82 /* Sanapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sanapp.entitlements; sourceTree = "<group>"; };
+		8E4F246B1EB98C4300C72D82 /* StyleImgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleImgView.swift; sourceTree = "<group>"; };
+		8E4F246D1EB99BF500C72D82 /* StyleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleLabel.swift; sourceTree = "<group>"; };
+		8E4F24701EBA633900C72D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8E579D561EB1252F00597ADB /* LauncherStyleUImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncherStyleUImageView.swift; sourceTree = "<group>"; };
+		8E579D581EB133DC00597ADB /* Sanapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sanapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E579D591EB133DC00597ADB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8E579D5A1EB133DC00597ADB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8E688DD61EE343AC00F74B7E /* agua.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = agua.mp3; path = ../../../Downloads/button/agua.mp3; sourceTree = "<group>"; };
+		8E688DD71EE343AC00F74B7E /* ansiedad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ansiedad.mp3; path = ../../../Downloads/button/ansiedad.mp3; sourceTree = "<group>"; };
+		8E688DD81EE343AC00F74B7E /* campanas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = campanas.mp3; path = ../../../Downloads/button/campanas.mp3; sourceTree = "<group>"; };
+		8E688DD91EE343AC00F74B7E /* furin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = furin.mp3; path = ../../../Downloads/button/furin.mp3; sourceTree = "<group>"; };
+		8E688DDA1EE343AC00F74B7E /* gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gong.mp3; path = ../../../Downloads/button/gong.mp3; sourceTree = "<group>"; };
+		8E688DDB1EE343AC00F74B7E /* pajaros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pajaros.mp3; path = ../../../Downloads/button/pajaros.mp3; sourceTree = "<group>"; };
+		8E8CBC891EB26E6D00478810 /* StyleContainerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleContainerUIView.swift; sourceTree = "<group>"; };
+		8E8CBC8B1EB26EBC00478810 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8E9A6F8D1F038FBA00EDFD1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EEC1BD61EFF0712005B4CE7 /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		8EEC1BD81EFF26C0005B4CE7 /* StyleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextView.swift; sourceTree = "<group>"; };
+		8EEF1C541EAAE4A000B5E8BE /* Sanapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sanapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF1C571EAAE4A000B5E8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EEF1C591EAAE4A000B5E8BE /* MainViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVC.swift; sourceTree = "<group>"; };
+		8EEF1C5C1EAAE4A000B5E8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EEF1C5F1EAAE4A000B5E8BE /* Sanapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sanapp.xcdatamodel; sourceTree = "<group>"; };
+		8EEF1C661EAAE4A000B5E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EEF1C6B1EAAE4A000B5E8BE /* SanappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF1C6F1EAAE4A000B5E8BE /* SanappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanappTests.swift; sourceTree = "<group>"; };
+		8EEF1C711EAAE4A000B5E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EEF1C761EAAE4A000B5E8BE /* SanappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF1C7A1EAAE4A000B5E8BE /* SanappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanappUITests.swift; sourceTree = "<group>"; };
+		8EEF1C7C1EAAE4A000B5E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29DEC2121D54D771C89D04E /* Pods_Sanapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sanapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7239A87B11C95687B69C9A /* Pods-Sanapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sanapp/Pods-Sanapp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EEF1C511EAAE4A000B5E8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C34D96157322BDCC9D3AE21 /* Pods_Sanapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF1C681EAAE4A000B5E8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF1C731EAAE4A000B5E8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2B3E411EB5DCB1002552BE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8E688DD61EE343AC00F74B7E /* agua.mp3 */,
+				8E688DD71EE343AC00F74B7E /* ansiedad.mp3 */,
+				8E688DD81EE343AC00F74B7E /* campanas.mp3 */,
+				8E688DD91EE343AC00F74B7E /* furin.mp3 */,
+				8E688DDA1EE343AC00F74B7E /* gong.mp3 */,
+				8E688DDB1EE343AC00F74B7E /* pajaros.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		8E3F66E41EB1380700BE4A5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E2394E91EB27B9500741755 /* ModelElement.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E3F66E51EB1380F00BE4A5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E3F66EA1EB140C600BE4A5C /* SideMenuCell.swift */,
+				8E8CBC891EB26E6D00478810 /* StyleContainerUIView.swift */,
+				8E4F246B1EB98C4300C72D82 /* StyleImgView.swift */,
+				8E4F246D1EB99BF500C72D82 /* StyleLabel.swift */,
+				8EEC1BD81EFF26C0005B4CE7 /* StyleTextView.swift */,
+				8E0A24FA1F02FE7700D75574 /* StyleView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E3F66E61EB1381400BE4A5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF1C591EAAE4A000B5E8BE /* MainViewVC.swift */,
+				8E3F66E81EB1389700BE4A5C /* SideMenuVC.swift */,
+				8E198AC81EB90F7E0043D516 /* LoginVC.swift */,
+				8EEC1BD61EFF0712005B4CE7 /* FeedbackVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8E3F66E71EB1381B00BE4A5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E198AD41EB9146D0043D516 /* DataService.swift */,
+				8E8CBC8B1EB26EBC00478810 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8EEF1C4B1EAAE4A000B5E8BE = {
+			isa = PBXGroup;
+			children = (
+				8EEF1C561EAAE4A000B5E8BE /* Sanapp */,
+				8EEF1C6E1EAAE4A000B5E8BE /* SanappTests */,
+				8EEF1C791EAAE4A000B5E8BE /* SanappUITests */,
+				8EEF1C551EAAE4A000B5E8BE /* Products */,
+				F7F4667C0D85BE94B39B47BD /* Pods */,
+				DE110B848FB2B8C1AF121EC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EEF1C551EAAE4A000B5E8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF1C541EAAE4A000B5E8BE /* Sanapp.app */,
+				8EEF1C6B1EAAE4A000B5E8BE /* SanappTests.xctest */,
+				8EEF1C761EAAE4A000B5E8BE /* SanappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EEF1C561EAAE4A000B5E8BE /* Sanapp */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F24641EB9219E00C72D82 /* Sanapp.entitlements */,
+				8E2B3E411EB5DCB1002552BE /* Audio */,
+				8E3F66E71EB1381B00BE4A5C /* Utils */,
+				8E3F66E61EB1381400BE4A5C /* Controller */,
+				8E3F66E51EB1380F00BE4A5C /* View */,
+				8E3F66E41EB1380700BE4A5C /* Model */,
+				8EEF1C571EAAE4A000B5E8BE /* AppDelegate.swift */,
+				8EEF1C5B1EAAE4A000B5E8BE /* Main.storyboard */,
+				8EEF1C661EAAE4A000B5E8BE /* Info.plist */,
+				8E198AC41EB716B90043D516 /* Ubuntu-Medium.ttf */,
+				8EEF1C5E1EAAE4A000B5E8BE /* Sanapp.xcdatamodeld */,
+				8E579D591EB133DC00597ADB /* SWRevealViewController.h */,
+				8E9A6F8D1F038FBA00EDFD1A /* GoogleService-Info.plist */,
+				8E579D5A1EB133DC00597ADB /* SWRevealViewController.m */,
+				8E579D561EB1252F00597ADB /* LauncherStyleUImageView.swift */,
+				8E579D581EB133DC00597ADB /* Sanapp-Bridging-Header.h */,
+				8E0A24F81F02FC9900D75574 /* Assets.xcassets */,
+			);
+			path = Sanapp;
+			sourceTree = "<group>";
+		};
+		8EEF1C6E1EAAE4A000B5E8BE /* SanappTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF1C6F1EAAE4A000B5E8BE /* SanappTests.swift */,
+				8EEF1C711EAAE4A000B5E8BE /* Info.plist */,
+			);
+			path = SanappTests;
+			sourceTree = "<group>";
+		};
+		8EEF1C791EAAE4A000B5E8BE /* SanappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF1C7A1EAAE4A000B5E8BE /* SanappUITests.swift */,
+				8EEF1C7C1EAAE4A000B5E8BE /* Info.plist */,
+			);
+			path = SanappUITests;
+			sourceTree = "<group>";
+		};
+		DE110B848FB2B8C1AF121EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29DEC2121D54D771C89D04E /* Pods_Sanapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F4667C0D85BE94B39B47BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC7239A87B11C95687B69C9A /* Pods-Sanapp.debug.xcconfig */,
+				379304EC328075EA8E65C6DF /* Pods-Sanapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EEF1C531EAAE4A000B5E8BE /* Sanapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF1C7F1EAAE4A000B5E8BE /* Build configuration list for PBXNativeTarget "Sanapp" */;
+			buildPhases = (
+				03BA5F2714EAA58C0E9E7A21 /* [CP] Check Pods Manifest.lock */,
+				8EEF1C501EAAE4A000B5E8BE /* Sources */,
+				8EEF1C511EAAE4A000B5E8BE /* Frameworks */,
+				8EEF1C521EAAE4A000B5E8BE /* Resources */,
+				3001DA286EBE8537CB6FB91B /* [CP] Embed Pods Frameworks */,
+				415F7458E35D85DC7DDCD467 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sanapp;
+			productName = Sanapp;
+			productReference = 8EEF1C541EAAE4A000B5E8BE /* Sanapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EEF1C6A1EAAE4A000B5E8BE /* SanappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF1C821EAAE4A000B5E8BE /* Build configuration list for PBXNativeTarget "SanappTests" */;
+			buildPhases = (
+				8EEF1C671EAAE4A000B5E8BE /* Sources */,
+				8EEF1C681EAAE4A000B5E8BE /* Frameworks */,
+				8EEF1C691EAAE4A000B5E8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF1C6D1EAAE4A000B5E8BE /* PBXTargetDependency */,
+			);
+			name = SanappTests;
+			productName = SanappTests;
+			productReference = 8EEF1C6B1EAAE4A000B5E8BE /* SanappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EEF1C751EAAE4A000B5E8BE /* SanappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF1C851EAAE4A000B5E8BE /* Build configuration list for PBXNativeTarget "SanappUITests" */;
+			buildPhases = (
+				8EEF1C721EAAE4A000B5E8BE /* Sources */,
+				8EEF1C731EAAE4A000B5E8BE /* Frameworks */,
+				8EEF1C741EAAE4A000B5E8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF1C781EAAE4A000B5E8BE /* PBXTargetDependency */,
+			);
+			name = SanappUITests;
+			productName = SanappUITests;
+			productReference = 8EEF1C761EAAE4A000B5E8BE /* SanappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EEF1C4C1EAAE4A000B5E8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Devius;
+				TargetAttributes = {
+					8EEF1C531EAAE4A000B5E8BE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 83M9X3N895;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					8EEF1C6A1EAAE4A000B5E8BE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 83M9X3N895;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EEF1C531EAAE4A000B5E8BE;
+					};
+					8EEF1C751EAAE4A000B5E8BE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 83M9X3N895;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EEF1C531EAAE4A000B5E8BE;
+					};
+				};
+			};
+			buildConfigurationList = 8EEF1C4F1EAAE4A000B5E8BE /* Build configuration list for PBXProject "Sanapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EEF1C4B1EAAE4A000B5E8BE;
+			productRefGroup = 8EEF1C551EAAE4A000B5E8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEF1C531EAAE4A000B5E8BE /* Sanapp */,
+				8EEF1C6A1EAAE4A000B5E8BE /* SanappTests */,
+				8EEF1C751EAAE4A000B5E8BE /* SanappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EEF1C521EAAE4A000B5E8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E688DE01EE343AC00F74B7E /* gong.mp3 in Resources */,
+				8E0A24F91F02FC9900D75574 /* Assets.xcassets in Resources */,
+				8E688DDC1EE343AC00F74B7E /* agua.mp3 in Resources */,
+				8E198AC51EB716B90043D516 /* Ubuntu-Medium.ttf in Resources */,
+				8E688DDD1EE343AC00F74B7E /* ansiedad.mp3 in Resources */,
+				8E688DDF1EE343AC00F74B7E /* furin.mp3 in Resources */,
+				8E688DDE1EE343AC00F74B7E /* campanas.mp3 in Resources */,
+				8E9A6F8E1F038FBA00EDFD1A /* GoogleService-Info.plist in Resources */,
+				8EEF1C5D1EAAE4A000B5E8BE /* Main.storyboard in Resources */,
+				8E688DE11EE343AC00F74B7E /* pajaros.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF1C691EAAE4A000B5E8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF1C741EAAE4A000B5E8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BA5F2714EAA58C0E9E7A21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3001DA286EBE8537CB6FB91B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanapp/Pods-Sanapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415F7458E35D85DC7DDCD467 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanapp/Pods-Sanapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EEF1C501EAAE4A000B5E8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0A24FB1F02FE7700D75574 /* StyleView.swift in Sources */,
+				8EEF1C5A1EAAE4A000B5E8BE /* MainViewVC.swift in Sources */,
+				8E3F66EB1EB140C600BE4A5C /* SideMenuCell.swift in Sources */,
+				8E198AC91EB90F7E0043D516 /* LoginVC.swift in Sources */,
+				8E8CBC8A1EB26E6D00478810 /* StyleContainerUIView.swift in Sources */,
+				8EEF1C601EAAE4A000B5E8BE /* Sanapp.xcdatamodeld in Sources */,
+				8E4F246E1EB99BF500C72D82 /* StyleLabel.swift in Sources */,
+				8E198AD51EB9146D0043D516 /* DataService.swift in Sources */,
+				8E2394EA1EB27B9500741755 /* ModelElement.swift in Sources */,
+				8EEC1BD71EFF0713005B4CE7 /* FeedbackVC.swift in Sources */,
+				8E3F66E91EB1389700BE4A5C /* SideMenuVC.swift in Sources */,
+				8E579D5B1EB133DC00597ADB /* SWRevealViewController.m in Sources */,
+				8E4F246C1EB98C4300C72D82 /* StyleImgView.swift in Sources */,
+				8E579D571EB1252F00597ADB /* LauncherStyleUImageView.swift in Sources */,
+				8EEF1C581EAAE4A000B5E8BE /* AppDelegate.swift in Sources */,
+				8E8CBC8C1EB26EBC00478810 /* Constants.swift in Sources */,
+				8EEC1BD91EFF26C0005B4CE7 /* StyleTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF1C671EAAE4A000B5E8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF1C701EAAE4A000B5E8BE /* SanappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF1C721EAAE4A000B5E8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF1C7B1EAAE4A000B5E8BE /* SanappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EEF1C6D1EAAE4A000B5E8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF1C531EAAE4A000B5E8BE /* Sanapp */;
+			targetProxy = 8EEF1C6C1EAAE4A000B5E8BE /* PBXContainerItemProxy */;
+		};
+		8EEF1C781EAAE4A000B5E8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF1C531EAAE4A000B5E8BE /* Sanapp */;
+			targetProxy = 8EEF1C771EAAE4A000B5E8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EEF1C5B1EAAE4A000B5E8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EEF1C5C1EAAE4A000B5E8BE /* Base */,
+				8E4F24701EBA633900C72D82 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EEF1C7D1EAAE4A000B5E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EEF1C7E1EAAE4A000B5E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EEF1C801EAAE4A000B5E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7239A87B11C95687B69C9A /* Pods-Sanapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Sanapp/Sanapp.entitlements;
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Sanapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devius.sanapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sanapp/Sanapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8EEF1C811EAAE4A000B5E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379304EC328075EA8E65C6DF /* Pods-Sanapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Sanapp/Sanapp.entitlements;
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Sanapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devius.sanapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sanapp/Sanapp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8EEF1C831EAAE4A000B5E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				INFOPLIST_FILE = SanappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devius.Sanapp.SanappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanapp.app/Sanapp";
+			};
+			name = Debug;
+		};
+		8EEF1C841EAAE4A000B5E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				INFOPLIST_FILE = SanappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devius.Sanapp.SanappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanapp.app/Sanapp";
+			};
+			name = Release;
+		};
+		8EEF1C861EAAE4A000B5E8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				INFOPLIST_FILE = SanappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devius.Sanapp.SanappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sanapp;
+			};
+			name = Debug;
+		};
+		8EEF1C871EAAE4A000B5E8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 83M9X3N895;
+				INFOPLIST_FILE = SanappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devius.Sanapp.SanappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sanapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EEF1C4F1EAAE4A000B5E8BE /* Build configuration list for PBXProject "Sanapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF1C7D1EAAE4A000B5E8BE /* Debug */,
+				8EEF1C7E1EAAE4A000B5E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF1C7F1EAAE4A000B5E8BE /* Build configuration list for PBXNativeTarget "Sanapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF1C801EAAE4A000B5E8BE /* Debug */,
+				8EEF1C811EAAE4A000B5E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF1C821EAAE4A000B5E8BE /* Build configuration list for PBXNativeTarget "SanappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF1C831EAAE4A000B5E8BE /* Debug */,
+				8EEF1C841EAAE4A000B5E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF1C851EAAE4A000B5E8BE /* Build configuration list for PBXNativeTarget "SanappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF1C861EAAE4A000B5E8BE /* Debug */,
+				8EEF1C871EAAE4A000B5E8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EEF1C5E1EAAE4A000B5E8BE /* Sanapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EEF1C5F1EAAE4A000B5E8BE /* Sanapp.xcdatamodel */,
+			);
+			currentVersion = 8EEF1C5F1EAAE4A000B5E8BE /* Sanapp.xcdatamodel */;
+			path = Sanapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EEF1C4C1EAAE4A000B5E8BE /* Project object */;
+}

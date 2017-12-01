@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Miedos"; ObjectID = "0X9-JX-KyE"; */
+"0X9-JX-KyE.text" = "Fears";
+
+/* Class = "UILabel"; text = "Ansiedad"; ObjectID = "2rN-RX-2vF"; */
+"2rN-RX-2vF.text" = "Anxiety";
+
+/* Class = "UILabel"; text = "Ansiedad"; ObjectID = "2vg-fu-aVB"; */
+"2vg-fu-aVB.text" = "Ansiedad";
+
+/* Class = "UILabel"; text = "Debilidad"; ObjectID = "BvH-qe-DIl"; */
+"BvH-qe-DIl.text" = "Weakness";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "IH1-CU-0xm"; */
+"IH1-CU-0xm.title" = "Menu";
+
+/* Class = "UILabel"; text = "The purpose of this paper is to review the concepts of anxiety, angst and stress, and to define the linkages between them (specially anxiety-angst, on one hand, anxiety-stress, for other); also, it is sought to identify several key elements that allow to differ among these concepts. In order to carry out this purpose, we offer a general introduction to conceptual confusion has taken place around this terms, contributing empirical evidences by themselves, and reflecting the current approach. Next, we follow a similar structure for the three concepts: (1) an introduction, (2) a histori"; ObjectID = "RGD-gi-ITc"; */
+"RGD-gi-ITc.text" = "The purpose of this paper is to review the concepts of anxiety, angst and stress, and to define the linkages between them (specially anxiety-angst, on one hand, anxiety-stress, for other); also, it is sought to identify several key elements that allow to differ among these concepts. In order to carry out this purpose, we offer a general introduction to conceptual confusion has taken place around this terms, contributing empirical evidences by themselves, and reflecting the current approach. Next, we follow a similar structure for the three concepts: (1) an introduction, (2) a histori";
+
+/* Class = "UINavigationItem"; title = "Sanapp"; ObjectID = "RZi-rf-t5H"; */
+"RZi-rf-t5H.title" = "Sanapp";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SGo-Js-o3h"; */
+"SGo-Js-o3h.text" = "Label";
+
+/* Class = "UILabel"; text = "Depresión"; ObjectID = "dPk-gW-Jed"; */
+"dPk-gW-Jed.text" = "Depression";
+
+/* Class = "UILabel"; text = "Estrés\n"; ObjectID = "eal-xA-KhA"; */
+"eal-xA-KhA.text" = "Stress\n";
+
+/* Class = "UINavigationItem"; title = "Sanapp"; ObjectID = "fap-Az-8Re"; */
+"fap-Az-8Re.title" = "Sanapp";
+
+/* Class = "UIButton"; normalTitle = "Listo"; ObjectID = "hZn-Ga-z6r"; */
+"hZn-Ga-z6r.normalTitle" = "Ready";
+
+/* Class = "UILabel"; text = "Cansancio"; ObjectID = "xWz-mN-Gs2"; */
+"xWz-mN-Gs2.text" = "fatigue";
